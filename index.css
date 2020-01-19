@@ -51,9 +51,18 @@ p {
     font-weight: 400;
 }
 
-label {
-    
+.rounded-btn {
+    border-color: hsl(0, 36%, 70%);
+    border-radius: 9999px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
 }
+
+.rounded-btn::placeholder {
+    color: hsl(0, 36%, 70%);
+    opacity: 0.5; 
+  }
 
 .hero {
     grid-area: 1 / 2 / -1 / 3;
