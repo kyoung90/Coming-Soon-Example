@@ -19,7 +19,9 @@ let submit = (event) => {
     }
     // some logic to store user's email
   } else {
-    textBox.className += " border-danger";
+    if (!textBox.classList.contains("border-danger")){
+        textBox.className += " border-danger";
+    }
   } 
 };
 
